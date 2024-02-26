@@ -1,0 +1,27 @@
+:root {
+  --dark-light-solid-color: #dbdade;
+  --text-color: #4b465c;
+}
+
+table {
+  border: 1px solid var(--dark-light-solid-color);
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  font-family: "Public Sans";
+  color: var(--text-color);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 16px 20px;
+}
+
+.tableRow {
+  border: 1px solid var(--dark-light-solid-color);
+  color: var(--text-color);
+  td {
+    padding: 14px 20px;
+  }
+}
